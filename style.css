@@ -1,0 +1,48 @@
+html,body {
+    margin : 0;
+    padding : 0;
+    font-family: 'Roboto';
+    font-weight: 200;
+    font-size: 14px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+h1 {
+    font-weight: 200;
+}
+h1 span {
+    color : #3679d6;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    flex: 1;
+    min-width: 120px;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 0 20px;
+    font-size: 1.3em;
+}
+
+nav a:hover {
+    border-bottom: solid 1px;
+    border-color: #3679d6;
+}
+
+a.contact-btn {
+    border: solid 1px;
+    border-radius: 24px;
+    border-color: #3679d6;
+}
+
+a.contact-btn:hover {
+    background-color: #3679d6;
+    color: #FFF;
+}
